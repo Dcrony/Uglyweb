@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WELCOME!!!</title>
+
+  <style>
+    /* ABSOLUTELY NO RESPONSIVENESS */
+    body {
+      width: 1400px;
+      margin: 0;
+      background: repeating-radial-gradient(circle, red, yellow, lime, cyan);
+      font-family: "Comic Sans MS", "Papyrus", cursive;
+      color: hotpink;
+    }
+
+    .container {
+      width: 1200px;
+      margin-left: 100px;
+      border: 20px dotted blue;
+      background: black;
+      padding: 40px;
+    }
+
+    header {
+      height: 250px;
+      background: linear-gradient(to right, purple, orange, green);
+      border: 15px dashed yellow;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 90px;
+      color: red;
+      text-shadow: 5px 5px lime;
+      margin-top: 40px;
+    }
+
+    header p {
+      font-size: 30px;
+      background: cyan;
+      color: purple;
+      width: 600px;
+      margin-left: 300px;
+      border: 8px solid red;
+    }
+
+    .features {
+      margin-top: 50px;
+      height: 400px;
+      background: yellow;
+      border: 12px groove magenta;
+    }
+
+    .feature-box {
+      width: 300px;
+      height: 250px;
+      background: lime;
+      float: left;
+      margin: 30px;
+      border: 10px double red;
+      text-align: center;
+    }
+
+    .feature-box h3 {
+      font-size: 28px;
+      color: blue;
+      background: orange;
+    }
+
+    .cta {
+      clear: both;
+      height: 200px;
+      background: hotpink;
+      border: 15px ridge black;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .cta button {
+      font-size: 40px;
+      padding: 20px 60px;
+      background: red;
+      color: yellow;
+      border: 10px solid cyan;
+      cursor: pointer;
+      animation: blink 0.6s infinite;
+    }
+
+    footer {
+      height: 120px;
+      background: green;
+      color: purple;
+      text-align: center;
+      font-size: 24px;
+      border-top: 10px dashed red;
+    }
+
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>BUY THIS THING!!!</h1>
+      <p>This landing page hates mobile users.</p>
+    </header>
+
+    <section class="features">
+      <div class="feature-box">
+        <h3>FEATURE 1</h3>
+        <p>It exists.</p>
+      </div>
+
+      <div class="feature-box">
+        <h3>FEATURE 2</h3>
+        <p>Very confusing.</p>
+      </div>
+
+      <div class="feature-box">
+        <h3>FEATURE 3</h3>
+        <p>No alignment.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>CLICK NOW OR REGRET IT</h2>
+      <button onclick="alert('WHY 😭')">CLICK ME</button>
+    </section>
+
+    <footer>
+      © 1999–2026 All Rights Ignored<br>
+      Best viewed on a 1920×1080 monitor
+    </footer>
+
+  </div>
+
+</body>
+</html>
